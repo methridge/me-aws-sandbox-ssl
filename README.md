@@ -12,7 +12,7 @@ regions     = (["us-east-1", "us-east-2", "us-west-1", "us-west-2"])
 zone_name   = "aws.awesomedomain.com"
 ```
 
-<!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -24,8 +24,8 @@ zone_name   = "aws.awesomedomain.com"
 
 | Name | Version |
 |------|---------|
-| acme | 2.5.3 |
-| tls | 3.1.0 |
+| acme | 2.13.1 |
+| tls | 4.0.4 |
 
 ## Modules
 
@@ -52,4 +52,4 @@ No modules.
 | Name | Description |
 |------|-------------|
 | regional-tls-certs | Set of Regional SSL Cert objects |
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
+<!-- END_TF_DOCS -->
