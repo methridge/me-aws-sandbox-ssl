@@ -1,11 +1,4 @@
 terraform {
-  backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "methridge"
-    workspaces {
-      name = "me-aws-sandbox-ssl"
-    }
-  }
   required_providers {
     acme = {
       source  = "vancluever/acme"
